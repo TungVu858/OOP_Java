@@ -3,19 +3,16 @@ package BaiTap_PTB2;
 public class PTB2 {
     private double a, b, c;
 
-    public PTB2() {
+    public double getA() {
+        return this.a;
     }
 
-    public double getA(double a) {
-        return a;
+    public double getB() {
+        return this.b;
     }
 
-    public double getB(double b) {
-        return b;
-    }
-
-    public double getC(double c) {
-        return c;
+    public double getC() {
+        return this.c;
     }
 
     public PTB2(double a, double b, double c) {
